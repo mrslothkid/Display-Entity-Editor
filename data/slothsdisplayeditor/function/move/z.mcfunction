@@ -1,1 +1,1 @@
-$execute as @n[tag=sloths_display,tag=!sloths_display.locked] at @s run tp @s ~ ~ ~$(pixels)
+$execute as @n[tag=sloths_display,tag=!sloths_display.locked,type=#slothsdisplayeditor:display_entity] at @s run tp @s ~ ~ ~$(pixels)

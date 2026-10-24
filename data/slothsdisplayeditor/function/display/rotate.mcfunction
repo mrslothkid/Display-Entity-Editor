@@ -19,7 +19,7 @@ data modify storage kern:in matrixA set from entity @n[tag=sloths_display,tag=!s
 
 function kern-quaternion:mul
 
-data modify entity @n[tag=sloths_display,tag=!sloths_display.locked] transformation.left_rotation set from storage kern:out matrix
+data modify entity @n[tag=sloths_display,tag=!sloths_display.locked,distance=..10,type=#slothsdisplayeditor:display_entity] transformation.left_rotation set from storage kern:out matrix
 
 
 #data modify entity @s transformation.left_rotation set value {axis:[0.0f,0.0f,1.0f],angle:###}

@@ -2,7 +2,7 @@
 #what was $modifyentityaxis in the score for other modifier is now what decides the property --
 
 #execute store result storage slothsdisplayeditor:temp properties.block_id int 1 run 
-data modify storage slothsdisplayeditor:temp properties.block_id set from entity @n[tag=sloths_display,tag=!sloths_display.locked] block_state
+data modify storage slothsdisplayeditor:temp properties.block_id set from entity @n[tag=sloths_display,tag=!sloths_display.locked,distance=..10,type=#slothsdisplayeditor:display_entity] block_state
 
 execute if score $modify_entity_axis slothsdisplayeditor.modify matches 1 run function slothsdisplayeditor:display/block_state/properties/age
 execute if score $modify_entity_axis slothsdisplayeditor.modify matches 2 run function slothsdisplayeditor:display/block_state/properties/attached
