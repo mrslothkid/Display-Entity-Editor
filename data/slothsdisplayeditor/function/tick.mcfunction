@@ -15,10 +15,10 @@ execute as @a[scores={slothsdisplayeditor.modify=1..}] at @s run function sloths
 
 execute as @a if score @s slothsdisplayeditor.modify matches 100000.. run function slothsdisplayeditor:set_score_and_modify
 
-execute as @e[tag=sloths_display,scores={slothsdisplayeditor.modify=2..}] run data modify entity @s Glowing set value 1b
-execute as @e[tag=sloths_display,scores={slothsdisplayeditor.modify=1..2}] run data modify entity @s Glowing set value 0b
-scoreboard players remove @e[tag=sloths_display,scores={slothsdisplayeditor.modify=1..}] slothsdisplayeditor.modify 1
-scoreboard players reset @e[tag=sloths_display,scores={slothsdisplayeditor.modify=0}] slothsdisplayeditor.modify
+execute as @e[tag=sloths_display,scores={slothsdisplayeditor.modify=2..},type=#slothsdisplayeditor:display_entity] run data modify entity @s Glowing set value 1b
+execute as @e[tag=sloths_display,scores={slothsdisplayeditor.modify=1..2},type=#slothsdisplayeditor:display_entity] run data modify entity @s Glowing set value 0b
+scoreboard players remove @e[tag=sloths_display,scores={slothsdisplayeditor.modify=1..},type=#slothsdisplayeditor:display_entity] slothsdisplayeditor.modify 1
+scoreboard players reset @e[tag=sloths_display,scores={slothsdisplayeditor.modify=0},type=#slothsdisplayeditor:display_entity] slothsdisplayeditor.modify
 
 
 scoreboard players reset @a[tag=slothsdisplayeditor.cannot_edit,scores={slothsdisplayeditor.modify=-2147483648..2147483647}] slothsdisplayeditor.modify
