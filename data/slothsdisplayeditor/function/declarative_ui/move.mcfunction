@@ -1,0 +1,1 @@
+$execute as @n[tag=sloths_display,tag=!sloths_display.locked] at @s run tp @s ~$(x) ~$(y) ~$(z)

@@ -1,0 +1,1348 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:written_book_content": {
+      "pages": [
+        [
+          [
+            "",
+            {
+              "text": "ꜱʟᴏᴛʜ'ꜱ ᴅɪꜱᴘʟᴀʏ ᴇɴᴛɪᴛʏ ᴇᴅɪᴛᴏʀ!",
+              "underlined": true,
+              "color": "dark_gray"
+            },
+            "\n\n",
+            {
+              "text": "ᴄʀᴇᴀᴛᴇ ɪᴛᴇᴍ ᴅɪꜱᴘʟᴀʏ (ᴏꜰꜰʜᴀɴᴅ)",
+              "bold": true,
+              "color": "dark_green",
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 1"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ᴄʀᴇᴀᴛᴇ ʙʟᴏᴄᴋ ᴅɪꜱᴘʟᴀʏ (ᴏꜰꜰʜᴀɴᴅ)",
+              "bold": true,
+              "color": "dark_green",
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 2"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ᴅᴇꜱᴛʀᴏʏ ɴᴇᴀʀᴇꜱᴛ ᴅɪꜱᴘʟᴀʏ ᴇɴᴛɪᴛʏ",
+              "bold": true,
+              "color": "dark_red",
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 3"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ʜɪɢʜʟɪɢʜᴛ ɴᴇᴀʀᴇꜱᴛ ᴅɪꜱᴘʟᴀʏ ᴇɴᴛɪᴛʏ",
+              "bold": true,
+              "color": "gold",
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 4"
+              }
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "ᴛʀᴀɴꜱʟᴀᴛᴇ",
+              "underlined": true,
+              "color": "dark_gray"
+            },
+            "\n\n",
+            {
+              "text": "x",
+              "color": "red",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101004"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101008"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101016"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101104"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101108"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 101116"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ʏ",
+              "color": "green",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102004"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102008"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102016"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102104"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102108"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 102116"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ᴢ",
+              "color": "blue",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103004"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103008"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103016"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103104"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103108"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 103116"
+              }
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "ꜱᴄᴀʟᴇ",
+              "underlined": true,
+              "color": "dark_gray"
+            },
+            "\n\n",
+            {
+              "underlined": false,
+              "text": "x",
+              "color": "red"
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201004"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201008"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201016"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201104"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201108"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 201116"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ʏ",
+              "color": "green",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202004"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202008"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202016"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202104"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202108"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 202116"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ᴢ",
+              "color": "blue",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203004"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203008"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203016"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "4ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203104"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "8ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203108"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "16ᴘx",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 203116"
+              }
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "ʀᴏᴛᴀᴛᴇ",
+              "underlined": true,
+              "color": "dark_gray"
+            },
+            "\n\n",
+            {
+              "text": "x",
+              "color": "red",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "5°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301005"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "15°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301015"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "45°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301045"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "90°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301090"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "5°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301105"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "15°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301115"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "45°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301145"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "90°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 301190"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ʏ",
+              "color": "green",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "5°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302005"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "15°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302015"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "45°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302045"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "90°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302090"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "5°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302105"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "15°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302115"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "45°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302145"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "90°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 302190"
+              }
+            },
+            "\n\n",
+            {
+              "text": "ᴢ",
+              "color": "blue",
+              "underlined": false
+            },
+            "\n",
+            {
+              "text": "+ ",
+              "color": "dark_green",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303001"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "5°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303005"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "15°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303015"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "45°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303045"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "90°",
+              "color": "green",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303090"
+              }
+            },
+            "\n",
+            {
+              "text": "- ",
+              "color": "dark_red",
+              "underlined": false
+            },
+            {
+              "text": "| ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "1°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303101"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "5°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303105"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "15°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303115"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "45°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303145"
+              }
+            },
+            {
+              "text": ", ",
+              "color": "dark_gray",
+              "underlined": false
+            },
+            {
+              "text": "90°",
+              "color": "red",
+              "underlined": false,
+              "click_event": {
+                "action": "run_command",
+                "command": "trigger slothsdisplayeditor.modify set 303190"
+              }
+            }
+          ]
+        ]
+      ],
+      "title": "Display Entity Editor",
+      "author": "Slothy",
+      "generation": 3,
+      "resolved": true
+    }
+  }
+}
+
+

@@ -1,0 +1,66 @@
+{
+  "type": "add",
+  "inputs": [
+    {
+      "type": "mul",
+      "inputs": [
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixA[3]"
+        },
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixB[0]"
+        }
+      ]
+    },
+    {
+      "type": "mul",
+      "inputs": [
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixA[0]"
+        },
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixB[3]"
+        }
+      ]
+    },
+    {
+      "type": "mul",
+      "inputs": [
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixA[1]"
+        },
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixB[2]"
+        }
+      ]
+    },
+    {
+      "type": "mul",
+      "inputs": [
+        -1,
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixA[2]"
+        },
+        {
+          "type": "storage",
+          "storage": "kern:in",
+          "path": "matrixB[1]"
+        }
+      ]
+    }
+  ]
+}

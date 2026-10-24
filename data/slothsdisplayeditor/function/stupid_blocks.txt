@@ -1,0 +1,40 @@
+
+
+
+1. Planting, Seeds, and CropsWhen you hold a crop item, it’s just an item. Once planted, it turns into a progressive, multi-stage block that usually cannot be picked up in its "crop" form without breaking it.Item IDPlaced Block IDNotesminecraft:wheat_seedsminecraft:wheatThe block goes through 8 growth stages.minecraft:pumpkin_seedsminecraft:pumpkin_stemTurns into a attached stem when mature.minecraft:melon_seedsminecraft:melon_stemSame as pumpkins.minecraft:carrotminecraft:carrotsPlaced block is pluralized.minecraft:potatominecraft:potatoesPlaced block is pluralized.minecraft:sweet_berriesminecraft:sweet_berry_bushThe item is food; the block is a prickly bush.minecraft:pitcher_podminecraft:pitcher_cropGrows into a pitcher_plant.2. Redstone Components and UtilitiesRedstone items often transform into blocks with entirely different names to reflect their technical state (like wires, triggers, or wall-mounted versions).Item IDPlaced Block IDNotesminecraft:redstoneminecraft:redstone_wireYour classic example.minecraft:stringminecraft:tripwireThe block handles the collision and connection logic.minecraft:repeaterminecraft:repeater / minecraft:unpowered_repeater*Note: In modern Java, it stays repeater but uses block states (powered=true/false). However, the item entity itself is distinct from the tile entity.minecraft:cauldronminecraft:cauldronWhile the base block matches, filling it changes it to blocks like lava_cauldron, water_cauldron, or powder_snow_cauldron.3. Directional & Multi-Part Decorations (Signs, Banners, Candles)Items like signs and banners change their block ID depending on where you place them (on the floor vs. on a wall).Signs & Hanging Signs (Applies to all wood types)Item IDFloor Block IDWall Block IDminecraft:oak_signminecraft:oak_signminecraft:oak_wall_signminecraft:mangrove_hanging_signminecraft:mangrove_hanging_signminecraft:mangrove_wall_hanging_signBanners (Applies to all 16 colors)Item IDFloor Block IDWall Block IDminecraft:red_bannerminecraft:red_bannerminecraft:red_wall_bannerTorches & HeadsItem IDFloor Block IDWall Block IDminecraft:torchminecraft:torchminecraft:wall_torchminecraft:soul_torchminecraft:soul_torchminecraft:soul_wall_torchminecraft:redstone_torchminecraft:redstone_torchminecraft:redstone_wall_torchminecraft:player_headminecraft:player_headminecraft:player_wall_headminecraft:zombie_headminecraft:zombie_headminecraft:zombie_wall_head4. Fluids and ContainersYou cannot place a "liquid" directly from your creative inventory without a container. The item is the bucket, but the block is the raw fluid.Item IDPlaced Block IDminecraft:water_bucketminecraft:waterminecraft:lava_bucketminecraft:lavaminecraft:powder_snow_bucketminecraft:powder_snow
+
+/// = not necessary for creating but maybe for destroying
+
+
+lets summarise this into a list
+1 - annoying crops and Seeds
+  wheat_seeds -> wheat
+  pumpkin_seeds -> pumpkin_stem
+  melon_seeds -> melon_stem
+  carrot -> carrots
+  potato -> potatoes
+  sweet_berries -> sweet_berry_bush
+  pitcher_pod -> pitcher_crop
+
+2 - Redstone Components
+  redstone -> redstone_wire
+  string -> tripwire
+  repeater -> repeater (powered state)
+  cauldron -> cauldron (lava/water/powder_snow variants)
+
+3 - Directional Decorations
+  ///x_sign -> x_sign/x_wall_sign
+  ///x_hanging_sign -> x_hanging_sign/x_wall_hanging_sign
+  ///x_banner -> x_banner/x_wall_banner
+  ///(x) torch -> (x) torch/wall_torch
+  ///x_head -> x_head/x_wall_head
+  
+  
+4 - Fluids and Containers
+  water_bucket -> water
+  lava_bucket -> lava
+  powder_snow_bucket -> powder_snow
+
+
+5 - slothy bonus
+  flint and steel -> fire

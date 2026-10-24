@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "B": "minecraft:book",
+    "C": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:written_book",
+    "count": 1,
+    "components": {
+      "minecraft:written_book_content": {
+        "title": "UnActivated Display Editor",
+        "author": "Slothy",
+        "generation": 3
+      },
+      "custom_data": {"slothsdisplayeditor":"book"}
+    }
+  }
+}
