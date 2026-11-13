@@ -7,9 +7,9 @@
 # needs to use the quack datapack (now built in) to run the quarternion calcs
 
 
-$execute if score $modify_entity_axis slothsdisplayeditor.modify matches 2 run data modify storage quack:api euler set value [$(magnitude)f, 0f, 0f]
-$execute if score $modify_entity_axis slothsdisplayeditor.modify matches 1 run data modify storage quack:api euler set value [0f, $(magnitude)f, 0f]
-$execute if score $modify_entity_axis slothsdisplayeditor.modify matches 3 run data modify storage quack:api euler set value [0f, 0f, $(magnitude)f]
+$execute if score #modify_entity_axis slothsdisplayeditor.modify matches 2 run data modify storage quack:api euler set value [$(magnitude)f, 0f, 0f]
+$execute if score #modify_entity_axis slothsdisplayeditor.modify matches 1 run data modify storage quack:api euler set value [0f, $(magnitude)f, 0f]
+$execute if score #modify_entity_axis slothsdisplayeditor.modify matches 3 run data modify storage quack:api euler set value [0f, 0f, $(magnitude)f]
 
 function quack:api/storage/euler_to_quaternion
 
